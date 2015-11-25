@@ -43,7 +43,7 @@
                      <div class="scroller" style="height: 600px;" data-always-visible="1" data-rail-visible="0">
                         <ul class="feeds">
 
-                        <?php 
+                        <?php
                         $class = "";
                           while($row = $result->fetch_assoc()) {
                             if($vid == $row["serial_no"]) {
@@ -63,25 +63,25 @@
                                     </p>
                                  </div>
                                  <div class="tile-object">
-                                    <div class="name">																		<?php 									$live_flag_text = "";									if($row["live_flag"] == 0) {										$live_flag_text ="Live Version"; 
+                                    <div class="name">																		<?php 									$live_flag_text = "";									if($row["live_flag"] == 0) {										$live_flag_text ="Live Version";
 									} else if($row["live_flag"] == 1) {										$live_flag_text ="English Subtitles";
 									}																		?>
-                                       <span class="label label-sm label-danger" style="background-color:#B80000 !important;">Lecture # <b><?php echo $row["serial_no"]; ?></b></span>&nbsp;&nbsp;&nbsp;<span class="label label-sm label-info"><?php echo $live_flag_text; ?></span>									   
+                                       <span class="label label-sm label-danger" style="background-color:#B80000 !important;">Lecture # <b><?php echo $row["serial_no"]; ?></b></span>&nbsp;&nbsp;&nbsp;<span class="label label-sm label-info"><?php echo $live_flag_text; ?></span>
                                     </div>
                                     <div class="number">
                                        <?php echo $row["lec_date"]; ?>
                                     </div>
                                  </div>
-                                </div>  
-                                 
+                                </div>
+
                               </a>
                            </li>
-                         
+
                         <?php
                         }
 
                         ?>
-                           
+
                         </ul>
                      </div>
                      <div class="scroller-footer">
@@ -205,7 +205,7 @@
                     </div>
                  </div>
                  </div>
-               </div>
+               </div> 
                <div class="row">
                  <div class="col-md-12 col-sm-6">
                    <!-- BEGIN Portlet PORTLET-->
@@ -217,17 +217,10 @@
                      </div>
                   </div>
                   <div class="portlet-body">
-                     <div class="scroller" style="height: 200px;" data-always-visible="1" data-rail-visible="0">
-                        <strong>Scroll is hidden</strong><br />
+                     <div class="scroller" style="height: 150px;" data-always-visible="1" data-rail-visible="0">
                         <p><?php echo $row["lec_notes"]; ?><br/></p>
                         Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
                         consectetur Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
-                        consecteturDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
-                        consecteturDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
-                        consecteturDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
-                        consecteturDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
-                        consecteturDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
-                        consecteturDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
                         consecteturpurus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
                      </div>
                   </div>
