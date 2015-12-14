@@ -29,6 +29,13 @@
                 <span class="title">Add Record</span>
             </a>
         </li>
+        <li id="sidebar-edit-record" class="">
+            <a href="#">
+                <i class="icon-home"></i>
+                <span class="title">Edit Record</span>
+            </a>
+        </li>
+
         <li id="sidebar-lecture-analytics" class="">
             <a href="javascript:;">
                 <i class="icon-group"></i>
