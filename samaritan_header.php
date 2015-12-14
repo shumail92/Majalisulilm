@@ -4,6 +4,7 @@
  * User: Shumail Mohy-ud-Din
  * Date: 12/14/2015
  * Time: 2:42 PM
+ * - session sai krna
  */
 ?>
 
@@ -67,7 +68,7 @@
                     <li><a href="javascript:;" id="trigger_fullscreen"><i class="icon-move"></i> Full Screen</a>
                     </li>
 
-                    <li><a href="admin_logout.php"><i class="icon-key"></i> Log Out</a>
+                    <li><a href="samaritan_kill.php"><i class="icon-key"></i> Log Out</a>
                     </li>
                 </ul>
             </li>

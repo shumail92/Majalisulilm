@@ -117,7 +117,7 @@ var TableAdvanced = function () {
                     console.log("count--"+parseInt(data.count));
                     noRecords = parseInt(data.count);
                     if(data.errorCode == '1'){
-                        window.location.replace("machine.php");
+                        window.location.replace("samaritan_machine.php");
                     }
                     if(noRecords == 0)
                         return;
