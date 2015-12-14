@@ -12,12 +12,9 @@
 session_start();
 $ret['errorCode']=0;
 
-//if(  !isset(  $_SESSION['user_id'])  ){
-//    $ret['errorCode']=1;
-//}
-//if(!isset(  $_SESSION['user_type']) ||  $_SESSION['user_type'] != 2){
-//    $ret['errorCode']=1;
-//}
+if(  !isset(  $_SESSION['samaritan_token'])  ){
+    $ret['errorCode']=1;
+}
 
 if($ret['errorCode'] == 0){
 

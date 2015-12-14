@@ -9,16 +9,10 @@
 ?>
 
 <?php
-//session_start();
-//if(  !isset(  $_SESSION['user_id'])  ){
-//    header("location: NimunLogin.php");
-//}
-//if(!isset(  $_SESSION['user_type']) ||  $_SESSION['user_type'] != 2){
-//    header("location: NimunLogin.php");
-//}
-//if($_SESSION['lock_status'] == "lock"){
-//    header("location: extra_lock.php");
-//}
+session_start();
+if(  !isset(  $_SESSION['samaritan_token'])  ){
+    header("location: samaritan_machine.php");
+}
 ?>
 <!DOCTYPE html>
 
