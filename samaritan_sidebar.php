@@ -23,6 +23,12 @@
                 <span class="title">Dashboard</span>
             </a>
         </li>
+        <li id="sidebar-add-new-record" class="">
+            <a href="samaritan_add_record.php">
+                <i class="icon-home"></i>
+                <span class="title">Add Record</span>
+            </a>
+        </li>
         <li id="sidebar-lecture-analytics" class="">
             <a href="javascript:;">
                 <i class="icon-group"></i>

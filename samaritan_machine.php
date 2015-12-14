@@ -10,7 +10,7 @@
 session_start();
 if( isset(  $_SESSION['samaritan_token'])  ){
     header("location: samaritan.php");
-}
+} 
 
 $error=''; // Variable To Store Error Message
 if (isset($_POST['submit'])) {
